@@ -1,0 +1,69 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.header-container, .content-container {
+    width: 100%;
+}
+
+.header-container {
+    background-color: rgb(160, 255, 157);
+}
+
+.content-container1 {
+    background-color: rgb(161, 232, 255);
+}
+
+.content-container2 {
+    background-color: rgb(112, 217, 252);
+}
+
+.content-container3 {
+    background-color: rgb(70, 209, 255);
+}
+
+.header-container header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.content2 {
+    display: flex;
+    justify-content: end;
+    text-align: center;
+}
+.content3 {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+
+.box1 {
+    background-color: rgb(237, 197, 255);
+}
+
+.box2 {
+    background-color: rgb(223, 118, 255);
+}
+
+.box3 {
+    background-color: rgb(199, 78, 255);
+}
+
+.box4 {
+    background-color: rgb(119, 0, 255);
+}
+
